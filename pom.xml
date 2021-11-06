@@ -15,7 +15,7 @@
 	<name>TimesheetProject-DevOps</name>
 	<description>A backend application to manage timesheets with the touch of DevOps</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
