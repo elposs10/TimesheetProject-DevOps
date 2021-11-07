@@ -135,13 +135,13 @@ public class RestControlEmploye {
 
 	// Modifier email :
 	// http://localhost:8081/SpringMVC/servlet/mettreAjourEmailByEmployeIdJPQL/2/newemail
-	@PutMapping(value = "/mettreAjourEmailByEmployeIdJPQL/{id}/{newemail}")
-	@ResponseBody
-	public void mettreAjourEmailByEmployeIdJPQL(@PathVariable("newemail") String email,
-			@PathVariable("id") int employeId) {
-		iemployeservice.mettreAjourEmailByEmployeIdJPQL(email, employeId);
-
-	}
+//	@PutMapping(value = "/mettreAjourEmailByEmployeIdJPQL/{id}/{newemail}")
+//	@ResponseBody
+//	public void mettreAjourEmailByEmployeIdJPQL(@PathVariable("newemail") String email,
+//			@PathVariable("id") int employeId) {
+//		iemployeservice.mettreAjourEmailByEmployeIdJPQL(email, employeId);
+//
+//	}
 
 	// URL : http://localhost:8081/SpringMVC/servlet/deleteAllContratJPQL
 	@DeleteMapping("/deleteAllContratJPQL")
