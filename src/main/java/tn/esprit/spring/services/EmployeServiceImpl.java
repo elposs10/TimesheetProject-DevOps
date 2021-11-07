@@ -125,10 +125,10 @@ public class EmployeServiceImpl implements IEmployeService {
 		return employeRepository.getAllEmployeByEntreprisec(entreprise);
 	}
 
-	public void mettreAjourEmailByEmployeIdJPQL(String email, int employeId) {
-		employeRepository.mettreAjourEmailByEmployeIdJPQL(email, employeId);
-
-	}
+//	public void mettreAjourEmailByEmployeIdJPQL(String email, int employeId) {
+//		employeRepository.mettreAjourEmailByEmployeIdJPQL(email, employeId);
+//
+//	}
 
 	public void deleteAllContratJPQL() {
 		employeRepository.deleteAllContratJPQL();

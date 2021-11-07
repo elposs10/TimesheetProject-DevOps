@@ -24,7 +24,7 @@ public interface IEmployeService {
 	public int getNombreEmployeJPQL();
 	public List<String> getAllEmployeNamesJPQL();
 	public List<Employe> getAllEmployeByEntreprise(Entreprise entreprise);
-	public void mettreAjourEmailByEmployeIdJPQL(String email, int employeId);
+	//public void mettreAjourEmailByEmployeIdJPQL(String email, int employeId);
 	public void deleteAllContratJPQL();
 	public float getSalaireByEmployeIdJPQL(int employeId);
 	public Double getSalaireMoyenByDepartementId(int departementId);
