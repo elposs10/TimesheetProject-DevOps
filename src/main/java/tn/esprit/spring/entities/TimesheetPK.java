@@ -7,6 +7,7 @@ import javax.persistence.Embeddable;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+@Generated
 @Embeddable
 public class TimesheetPK implements Serializable {
 

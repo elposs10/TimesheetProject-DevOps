@@ -10,7 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Entreprise;
-
+import tn.esprit.spring.entities.Generated;
+@Generated
 public interface EmployeRepository extends CrudRepository<Employe, Integer> {
 
 	@Query("SELECT count(*) FROM Employe")

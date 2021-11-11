@@ -14,10 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import tn.esprit.spring.entities.Departement;
 import tn.esprit.spring.entities.Entreprise;
+import tn.esprit.spring.entities.Generated;
 import tn.esprit.spring.services.IEmployeService;
 import tn.esprit.spring.services.IEntrepriseService;
 import tn.esprit.spring.services.ITimesheetService;
 
+@Generated
 @RestController
 public class RestControlEntreprise {
 
